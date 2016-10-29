@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kaewmod.hospitalroom.YogaActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout24"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="487dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Yoka1"
+                android:id="@+id/textView14"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/h4"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#5e53fe" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="426dp">
+
+                    <ImageView
+                        android:layout_width="307dp"
+                        android:layout_height="410dp"
+                        android:id="@+id/kumlag"
+                        android:background="@drawable/logo_kumlag"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Yoka"
+        android:id="@+id/button3"
+        android:textSize="@dimen/h5"
+        android:background="#4f51cc"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:onClick="clickYoga"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView53"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView53"
+        android:background="@drawable/home"
+        android:onClick="clickYogaHome"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

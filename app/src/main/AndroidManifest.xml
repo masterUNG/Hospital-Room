@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kaewmod.hospitalroom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".NurseActivity" />
+        <activity android:name=".YogaActivity" />
+        <activity android:name=".SickActivity" />
+        <activity android:name=".NoOkActivity" />
+        <activity android:name=".Yoga01Activity" />
+        <activity android:name=".Yoga02Activity" />
+        <activity android:name=".Yoga03Activity" />
+        <activity android:name=".Yoga04Activity" />
+        <activity android:name=".Yoga05Activity" />
+        <activity android:name=".Yoga06Activity" />
+        <activity android:name=".Yoga07Activity" />
+        <activity android:name=".Yoga08Activity" />
+        <activity android:name=".Yoga09Activity" />
+        <activity android:name=".Yoga10Activity" />
+        <activity android:name=".Yoga11Activity" />
+        <activity android:name=".Yoga12Activity" />
+        <activity android:name=".Yoga13Activity" />
+        <activity android:name=".Yoga14Activity" />
+        <activity android:name=".Yoga15Activity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".HomeyogaActivity" />
+        <activity android:name=".DrugsaveActivity" />
+        <activity android:name=".DiseaseheaderActivity" />
+        <activity android:name=".DiseasebodyActivity" />
+        <activity android:name=".DiseaselegActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DisbodyActivity" />
+        <activity android:name=".Disbody2Activity" />
+        <activity android:name=".Disbody3Activity" />
+        <activity android:name=".Dishead1Activity" />
+        <activity android:name=".Dishead2Activity" />
+        <activity android:name=".Dishead3Activity" />
+        <activity android:name=".Dishead4Activity" />
+        <activity android:name=".Dishead5Activity" />
+        <activity android:name=".Disleg1Activity" />
+        <activity android:name=".Disleg2Activity"></activity>
+    </application>
+
+</manifest>
