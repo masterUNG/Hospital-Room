@@ -108,10 +108,11 @@
 
     </LinearLayout>
 
-    <RadioGroup
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText12"
+        android:orientation="vertical"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
@@ -130,12 +131,13 @@
             android:id="@+id/radioButton26"
             android:textSize="@dimen/h2"
             android:textColor="@android:color/background_dark" />
-    </RadioGroup>
+    </LinearLayout>
 
-    <RadioGroup
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText12"
+        android:orientation="vertical"
         android:layout_alignRight="@+id/textView46"
         android:layout_alignEnd="@+id/textView46"
         android:layout_marginRight="43dp"
@@ -158,7 +160,7 @@
             android:layout_weight="1"
             android:textSize="@dimen/h2"
             android:textColor="@android:color/background_dark" />
-    </RadioGroup>
+    </LinearLayout>
 
     <RadioGroup
         android:layout_width="wrap_content"
