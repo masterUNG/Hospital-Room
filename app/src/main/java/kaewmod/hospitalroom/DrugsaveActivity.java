@@ -73,7 +73,7 @@ public class DrugsaveActivity extends AppCompatActivity {
                         dinnerRadioButton.isChecked() ||
                         sleepRadioButton.isChecked())) {
 
-                    radioAlert();
+                    radioAlert("ช่วงเวลา", "โปรดเลือกช่วงเวลาทานยา");
 
                 }
 
@@ -81,7 +81,7 @@ public class DrugsaveActivity extends AppCompatActivity {
                     Log.d("29octV3", "True Check");
                 } else {
                     Log.d("29octV3", "False Check");
-                    radioAlert();
+                    radioAlert("ก่อน หรือ หลังอาหาร", "ให้ทานก่อนหรือหลังอาหาร คะ");
                 }
 
 
@@ -113,11 +113,12 @@ public class DrugsaveActivity extends AppCompatActivity {
 
     }   // Main Method
 
-    private void radioAlert() {
+    private void radioAlert(String strTitle,
+                            String strMessage) {
         //Non Choose RadioButton
         MyAlert myAlert = new MyAlert();
         myAlert.myDialog(DrugsaveActivity.this,
-                "Not Choose Radio Button", "Please Choose Radio Button");
+                strTitle, strMessage);
     }
 
     private void currentDate() {
